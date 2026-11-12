@@ -1,0 +1,4 @@
+interface:
+  display_name: "Озвучивание уведомлений MacroDroid"
+  short_description: "Повторяемая настройка уведомлений на Android"
+  default_prompt: "Используй $macrodroid-notification-voice для настройки озвучивания уведомлений на моём Android."

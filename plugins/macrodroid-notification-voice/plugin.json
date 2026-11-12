@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "macrodroid-notification-voice",
+  "version": "1.0.0",
+  "description": "Repeatable Android notification speech setup with MacroDroid, local tools and export verification.",
+  "author": {"name": "prolgen"},
+  "license": "MIT",
+  "keywords": ["android", "macrodroid", "notifications", "text-to-speech"],
+  "extensions": {"com.openai": {
+    "interface": {
+      "displayName": "MacroDroid Notification Voice",
+      "shortDescription": "Настройка озвучивания уведомлений Android",
+      "longDescription": "Переносимые правила, проверка подключения, шаблон MacroDroid и контроль установленного макроса. Работает через локальный Codex на Windows.",
+      "developerName": "prolgen",
+      "category": "Productivity",
+      "capabilities": ["Read", "Write"],
+      "defaultPrompt": ["Настрой озвучивание уведомлений на моём Android через MacroDroid."]
+    }
+  }}
+}

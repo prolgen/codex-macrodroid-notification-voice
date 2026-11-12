@@ -1,0 +1,2 @@
+# Only needed for OpenAI's external quick_validate.py skill validator.
+PyYAML==6.0.3

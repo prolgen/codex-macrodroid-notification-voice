@@ -1,0 +1,13 @@
+{
+  "schema_version": 1,
+  "id": "delivery",
+  "name": "Доставка",
+  "applications": [{"package": "org.telegram.messenger", "name": "Telegram"}],
+  "groups": [["доставка", "курьер"]],
+  "exclude": ["реклама"],
+  "whole_words": true,
+  "ignore_case": true,
+  "speech": {"mode": "notification", "text": "", "locale": "ru", "speed": 1.0},
+  "alarm_seconds": 0,
+  "suppress_duplicates": true
+}

@@ -1,0 +1,7 @@
+[
+  {"text": "КУРЬЕР уже рядом", "expected": true},
+  {"text": "Ваша доставка\nприбудет сегодня", "expected": true},
+  {"text": "Реклама: доставка бесплатно", "expected": false},
+  {"text": "Курьерская служба", "expected": false},
+  {"text": "Добрый день", "expected": false}
+]
