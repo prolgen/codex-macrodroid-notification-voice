@@ -11,7 +11,9 @@
 
 ## Установка из репозитория
 
-После публикации этого репозитория в `prolgen/codex-macrodroid-notification-voice`:
+[Пошаговая инструкция для нового пользователя](FRIEND_GUIDE.md), включая готовый запрос для Codex.
+
+Установка из `prolgen/codex-macrodroid-notification-voice`:
 
 ```powershell
 codex plugin marketplace add prolgen/codex-macrodroid-notification-voice --ref v1.0.0
